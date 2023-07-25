@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: goda222/hostservice:e6c5c5c519dfca2830ac35cb0a0ac3bfc7a8d2bd
+        images: goda222/hostservice:e6c5c5c519dfca2830ac35cb0a0ac3bfc7a8d2bd
         resources:
           limits:
             memory: "128Mi"
